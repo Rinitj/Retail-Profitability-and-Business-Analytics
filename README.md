@@ -8,7 +8,7 @@ By moving beyond standard surface-level dashboards, this analysis uses Python, E
 
 ## 🎯 Business Questions Addressed
 
-To drive actionable strategy, this analysis was structured around four high-stakes business questions:
+To drive actionable strategy, this analysis was structured around four core business questions:
 
 1. **The Revenue vs. Profit Paradox:** Which product categories generate massive sales volume but fail to deliver meaningful net profit?
 2. **The Discount Tipping Point:** At what specific discount percentage do transactions cross from profitable to value-destroying?
@@ -19,9 +19,9 @@ To drive actionable strategy, this analysis was structured around four high-stak
 
 ## 🛠️ Tools & Technologies
 
-* **Python (Pandas, Matplotlib, Seaborn)** – Advanced data cleaning, custom margin aggregations, and publication-ready charting
-* **Microsoft Excel** – Quick pivot validation, transactional spot-checks, and preliminary data exploration
-* **Power BI & Business Intelligence** – Multi-dimensional EDA, metric creation (AOV, Margin %, Return Rate %), and scenario testing
+* **Python (Pandas, Matplotlib, Seaborn)**: Advanced data cleaning, custom margin aggregations, and visual charting
+* **Microsoft Excel**: Pivot validation, transactional spot-checks, and preliminary data exploration
+* **Power BI & Business Intelligence**: Multi-dimensional EDA, metric creation (AOV, Margin %, Return Rate %), and scenario testing
 
 ---
 
@@ -57,22 +57,22 @@ To drive actionable strategy, this analysis was structured around four high-stak
 
 ---
 
-## 🔥 Strategic Takeaways
+## 🔥 Key Takeaways
 
-* **Technology is the Core Engine:** Generates **$145.4K in net profit** with a strong **17.4% margin**, anchored by high-demand items like Copiers and Phones.
-* **Furniture is in Crisis Mode:** Despite bringing in **$741.4K in sales**, it retains a razor-thin **2.5% profit margin** ($18.4K total profit). 
-* **The "Tables" Money Pit:** Tables represent the single worst-performing sub-category in the entire store, causing a staggering **-$17,725 net loss**.
-* **The 20% Discount Danger Zone:** Discounting up to 20% maintains healthy profitability. The moment discounts cross **20%**, unit economics collapse—reaching disastrous loss margins (up to **-180%**) at extreme discount levels.
-* **Home Office is the Hidden Gem:** Represents the lowest order volume but yields the highest profit margin (**14.0%**) and lowest return rate (**5.39%**).
+* **Technology is the main driver:** Generates **$145.4K in net profit** with a **17.4% margin**, led by high-demand items like Copiers and Phones.
+* **Furniture needs attention:** Despite bringing in **$741.4K in sales**, it keeps a thin **2.5% profit margin** ($18.4K total profit).
+* **The "Tables" issue:** Tables are the worst-performing sub-category in the dataset, leading to a **-$17,725 net loss**.
+* **The 20% Discount Threshold:** Discounts up to 20% keep profitability steady. Once discounts pass **20%**, margins fall into negative territory (dropping to **-180%** at extreme levels).
+* **Home Office performance:** Generates lower order volume but yields the highest profit margin (**14.0%**) and lowest return rate (**5.39%**).
 
 ---
 
-## ⚡ Skills Demonstrated
+## ⚡ Skills Applied
 
-* **Commercial & Financial Analytics:** Identifying pricing inefficiencies, profit leakage, and margin drop-offs
-* **Exploratory Data Analysis (EDA):** Multivariable slicing across customer, product, and promotional dimensions
-* **Data Visualization & Storytelling:** Creating publication-grade charts designed for executive decision-making
-* **Key Metric Formulation:** Calculating complex commercial KPIs including AOV, Profit Margin %, and Return Rates
+* **Commercial & Financial Analytics:** Pinpointing pricing gaps, profit leaks, and margin drops
+* **Exploratory Data Analysis (EDA):** Slicing data across customer, product, and promo dimensions
+* **Data Visualization & Storytelling:** Building charts tailored for clear decision-making
+* **Key Metric Calculation:** Computing business KPIs like AOV, Profit Margin %, and Return Rates
 
 ---
 
@@ -86,9 +86,13 @@ Retail-Profitability-and-Business-Analytics/
 │       ├── portfolio_chart1_subcat_clean.png
 │       └── portfolio_chart2_discount_clean.png
 │
+├── data/
+│   └── Superstore Data set.xlsx
+│
 └── README.md
 
 '''
+
 ## Conclusion
 
 This project demonstrates how data analysis can reveal critical pricing inefficiencies and operational profit leaks in retail operations. By combining data aggregation, clean markdown summary models, and targeted visual breakdowns, the analysis translates complex transaction logs into actionable commercial strategies.
